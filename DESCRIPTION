@@ -1,0 +1,18 @@
+Package: nba.yy
+Title: Some basic statistics for user-specified NBA seasons
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yun Yee",
+           family = "Tan",
+           role = c("aut", "cre"),
+           email = "yt2734@columbia.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Three functions that all take the input as a particular NBA year and return the mean games per player, oldest player, and correlation matrix of numeric variables. This package was created as part of QMSS 5072 (Spring 2021, Columbia University). 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
